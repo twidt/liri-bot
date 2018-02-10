@@ -1,13 +1,13 @@
-console.log('this is loaded');
+// console.log('this is loaded');
 
-exports.twitter = {
-  consumer_key: process.env.TWITTER_CONSUMER_KEY,
-  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-  access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
-  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
+exports.twitterKeys = {
+  consumer_key: "qNtuorf624FbjcgkWNNZNmAeL",
+  consumer_secret: "CFpJRaFUYExmaat3ongeLQHV8AVes4teGYGvx555wIzhnOOqFK",
+  access_token_key: "912793546079576066-QCEa83bdsDl0DpdvyrVjSvRzuvGbUVM",
+  access_token_secret: "SAX3oVlwWGjVjrsUo2RWpDCtLACNdCZWXQVcTWVCvTUT7"
 };
 
-exports.spotify = {
-  id: process.env.SPOTIFY_ID,
-  secret: process.env.SPOTIFY_SECRET
+exports.spotifyKeys = {
+ client_id: "5040d7d1748a4d7386ca5af5e9efa597",
+  client_secret: "4b7528a5c10e4877b99ec7673d52f4bf"
 };
